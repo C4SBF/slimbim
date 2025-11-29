@@ -1,0 +1,135 @@
+{
+	"info": {
+		"_postman_id": "98040c83-defb-4bf7-95e9-3721568ae461",
+		"name": "PAE SkyCentrics",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11189209"
+	},
+	"item": [
+		{
+			"name": "Get Device Data",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"(async () => {",
+							"    const clientId = \"hQs8AaJeyW8nMJgEPwZx\";",
+							"    const secret = \"<redacted>\";",
+							"    const encoder = new TextEncoder();",
+							"",
+							"    // Set current Date header",
+							"    const date = new Date().toUTCString();",
+							"    pm.environment.set(\"currentDate\", date);",
+							"",
+							"    // Build request line",
+							"    const method = pm.request.method;",
+							"    const path = pm.request.url.getPath();",
+							"    const query = pm.request.url.getQueryString();",
+							"    const fullPath = path + (query ? `?${query}` : \"\");",
+							"    const requestLine = `${method} ${fullPath} HTTP/1.1`;",
+							"",
+							"    // Content-Type and body",
+							"    const contentTypeHeader = pm.request.headers.find(h => h.key.toLowerCase() === \"content-type\");",
+							"    const contentType = contentTypeHeader ? contentTypeHeader.value : \"\";",
+							"    const body = pm.request.body && pm.request.body.raw ? pm.request.body.raw : \"\";",
+							"",
+							"    // MD5 hash using CryptoJS (required)",
+							"    const md5Hex = CryptoJS.MD5(body).toString();",
+							"",
+							"    // String to sign",
+							"    const stringToSign = `${requestLine}\\n${date}\\n${contentType}\\n${md5Hex}`;",
+							"",
+							"    // Sign using Web Crypto HMAC SHA-1",
+							"    const keyBuffer = encoder.encode(secret);",
+							"    const cryptoKey = await crypto.subtle.importKey(",
+							"        \"raw\",",
+							"        keyBuffer,",
+							"        { name: \"HMAC\", hash: \"SHA-1\" },",
+							"        false,",
+							"        [\"sign\"]",
+							"    );",
+							"    const signatureBuffer = await crypto.subtle.sign(\"HMAC\", cryptoKey, encoder.encode(stringToSign));",
+							"    const signatureBase64 = btoa(String.fromCharCode(...new Uint8Array(signatureBuffer)));",
+							"",
+							"    // Set the environment variable",
+							"    const apiToken = `${clientId}:${signatureBase64}`;",
+							"    //const apiToken = 'hQs8AaJeyW8nMJgEPwZx:Cn/zGvAO/5TZaE+HAuvW3fJ//9A=';",
+							"    pm.environment.set(\"apiToken\", apiToken);",
+							"",
+							"    // Debug logs",
+							"    console.log(\"Request Line:\", requestLine);",
+							"    console.log(\"Date:\", date);",
+							"    console.log(\"Content-Type:\", contentType);",
+							"    console.log(\"MD5 Body Hash:\", md5Hex);",
+							"    console.log(\"String to Sign:\\n\" + stringToSign);",
+							"    console.log(\"Signature (base64):\", signatureBase64);",
+							"    console.log(\"X-SC-API-Token:\", apiToken);",
+							"})();"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Date",
+						"value": "{{currentDate}}",
+						"type": "text"
+					},
+					{
+						"key": "X-SC-API-Token",
+						"value": "{{apiToken}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Cache-Control",
+						"value": "no-cache",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/devices/1592651608/data",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"devices",
+						"1592651608",
+						"data"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://api.skycentrics.com",
+			"type": "default"
+		}
+	]
+}
