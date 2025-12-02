@@ -1,0 +1,129 @@
+{
+    "data": {
+        "id": 339947,
+        "number": "RE-5",
+        "name": "Kitchenette Medium",
+        "components": [
+            {
+                "component": {
+                    "instance_name": "JBOX-01",
+                    "id": 3149894,
+                    "placement_x": 0.36794,
+                    "placement_y": 1.31153,
+                    "placement_angle": 1.57081,
+                    "mirror_y": "T",
+                    "dimension_x": 0.12,
+                    "dimension_y": 0.05764,
+                    "attributes": {
+                        "Apparent Load": "1800 VA",
+                        "Circuit Number": "11,13",
+                        "Electrical Data": "Receptacle Connector 240 V/2-1800 VA",
+                        "Elevation from Level": "300",
+                        "Family": "Junction Box at 2400 AFF",
+                        "Family and Type": "Junction Box at 2400 AFF",
+                        "IfcGUID": "3Ul2YL1er8lR0EzC1PLJz4",
+                        "Panel": "PANEL-01",
+                        "Type": "Junction Box at 2400 AFF"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "RECEPT-07",
+                    "id": 3149895,
+                    "placement_x": 0.36796,
+                    "placement_y": -0.88599,
+                    "placement_angle": 1.57081,
+                    "mirror_y": "T",
+                    "dimension_x": 0.07471,
+                    "dimension_y": 0.05476,
+                    "attributes": {
+                        "Circuit Number": "9",
+                        "Electrical Data": "Receptacle Connector 120 V/1-1000 VA",
+                        "Elevation from Level": "450",
+                        "Face Plate": "1 Gang",
+                        "Family": "120V Special Purpose Outlet - Microwave",
+                        "Family and Type": "120V Special Purpose Outlet - Microwave",
+                        "IfcGUID": "2O0yYBTJj5dflal5AXjQ5S",
+                        "Panel": "PANEL-01",
+                        "Type": "120V Special Purpose Outlet - Microwave"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "RECEPT-08",
+                    "id": 3149896,
+                    "placement_x": 0.36794,
+                    "placement_y": 0.93883,
+                    "placement_angle": 1.57081,
+                    "mirror_y": "T",
+                    "dimension_x": 0.07471,
+                    "dimension_y": 0.05476,
+                    "attributes": {
+                        "Circuit Number": "10,12",
+                        "Electrical Data": "Receptacle Connector 240 V/2-1500 VA",
+                        "Elevation from Level": "1050",
+                        "Face Plate": "1 Gang",
+                        "Family": "240V Special Purpose Outlet - Oven (2 Poles)",
+                        "Family and Type": "240V Special Purpose Outlet - Oven (2 Poles)",
+                        "IfcGUID": "2O0yYBTJj5dflal5AXjQp4",
+                        "Panel": "PANEL-01",
+                        "Type": "240V Special Purpose Outlet - Oven (2 Poles)"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "WTRHTR-01",
+                    "id": 3149897,
+                    "placement_x": 0.1691,
+                    "placement_y": 1.20672,
+                    "placement_angle": 4.7124,
+                    "mirror_y": "F",
+                    "dimension_x": 0.43,
+                    "dimension_y": 0.15,
+                    "attributes": {
+                        "Circuit Number": "11,13",
+                        "Family": "28kW",
+                        "Family and Type": "28kW",
+                        "IfcGUID": "2qc7jHHl50lfEMScDASb_q",
+                        "Installation Date": "01 MAY 023",
+                        "System Abbreviation": "HW,CW",
+                        "System Classification": "Domestic Hot Water,Domestic Cold Water,Power",
+                        "System Name": "HW 1,CW 1",
+                        "Type": "28kW",
+                        "Warranty Description": "PARTS AND LABOR",
+                        "Warranty Labor End Date": "01 MAY 2024",
+                        "Warranty Labor Guarantor": "NIAGARA",
+                        "Warranty Labor Start Date": "01 MATY 2023",
+                        "Warranty Parts End Date": "01 MAY 2033",
+                        "Warranty Parts Guarantor": "AO SMITH"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "FIXT-02",
+                    "id": 3149898,
+                    "placement_x": 0.31794,
+                    "placement_y": 0.54331,
+                    "placement_angle": 1.57081,
+                    "mirror_y": "T",
+                    "dimension_x": 0.515,
+                    "dimension_y": 0.295,
+                    "attributes": {
+                        "Elevation from Level": "400",
+                        "Family": "Grohe WB265_M",
+                        "Family and Type": "Grohe WB265_M",
+                        "IfcGUID": "3zbP7_7orDZQ71Eit1s64y",
+                        "System Abbreviation": "SAN,HW,CW",
+                        "System Classification": "Sanitary,Domestic Hot Water,Domestic Cold Water",
+                        "System Name": "SAN 2,HW 1,CW 1",
+                        "Type": "Grohe WB265_M"
+                    }
+                }
+            }
+        ]
+    }
+}

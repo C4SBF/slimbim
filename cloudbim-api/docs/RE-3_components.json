@@ -1,0 +1,256 @@
+{
+    "data": {
+        "id": 339943,
+        "number": "RE-3",
+        "name": "Dining Extra Small",
+        "components": [
+            {
+                "component": {
+                    "instance_name": "RECEPT-04",
+                    "id": 3149856,
+                    "placement_x": -1.31767,
+                    "placement_y": -0.43039,
+                    "placement_angle": -1.5708,
+                    "mirror_y": "T",
+                    "dimension_x": 0.07471,
+                    "dimension_y": 0.05476,
+                    "attributes": {
+                        "Circuit Number": "8",
+                        "Electrical Data": "Receptacle Connector 120 V/1-180 VA",
+                        "Elevation from Level": "450",
+                        "Face Plate": "1 Gang",
+                        "Family": "120V Duplex",
+                        "Family and Type": "120V Duplex",
+                        "IfcGUID": "2O0yYBTJj5dflal5AXjQ6r",
+                        "Panel": "PANEL-01",
+                        "Type": "120V Duplex"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "RECEPT-05",
+                    "id": 3149857,
+                    "placement_x": 0.10275,
+                    "placement_y": 1.37001,
+                    "placement_angle": 3.14159,
+                    "mirror_y": "T",
+                    "dimension_x": 0.07471,
+                    "dimension_y": 0.05476,
+                    "attributes": {
+                        "Circuit Number": "8",
+                        "Electrical Data": "Receptacle Connector 120 V/1-180 VA",
+                        "Elevation from Level": "450",
+                        "Face Plate": "1 Gang",
+                        "Family": "120V Duplex",
+                        "Family and Type": "120V Duplex",
+                        "IfcGUID": "2O0yYBTJj5dflal5AXjQ7c",
+                        "Panel": "PANEL-01",
+                        "Type": "120V Duplex"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "SYM-Fire01",
+                    "id": 3149858,
+                    "placement_x": 0.72876,
+                    "placement_y": -0.13831,
+                    "placement_angle": 3.14159,
+                    "mirror_y": "T",
+                    "dimension_x": 0.09144,
+                    "dimension_y": 0.09144,
+                    "attributes": {
+                        "Elevation from Level": "2800",
+                        "Family": "Carbon Monoxide Detector Ceiling",
+                        "Family and Type": "Carbon Monoxide Detector Ceiling",
+                        "IfcGUID": "3KwmMWuhD83gQOxHjYSXZ7",
+                        "Temperature Rate of Rise": "-273 °C",
+                        "Temperature Threshold": "-273 °C",
+                        "Type": "Carbon Monoxide Detector Ceiling"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "SYM-Fire02",
+                    "id": 3149859,
+                    "placement_x": 0.72876,
+                    "placement_y": 0.26169,
+                    "placement_angle": 3.14159,
+                    "mirror_y": "T",
+                    "dimension_x": 0.09144,
+                    "dimension_y": 0.09144,
+                    "attributes": {
+                        "Family": "Smoke Detector",
+                        "Family and Type": "Smoke Detector",
+                        "IfcGUID": "3KwmMWuhD83gQOxHjYSXYn",
+                        "Temperature Rate of Rise": "-18 °C",
+                        "Temperature Threshold": "-18 °C",
+                        "Type": "Smoke Detector"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "LIGHT-FAN-02",
+                    "id": 3149862,
+                    "placement_x": -0.63004,
+                    "placement_y": 0.62049,
+                    "placement_angle": 3.14159,
+                    "mirror_y": "T",
+                    "dimension_x": 1.1176,
+                    "dimension_y": 1.1176,
+                    "attributes": {
+                        "Circuit Number": "1",
+                        "Electrical Data": "120 V/1-20 VA",
+                        "Elevation from Level": "2800",
+                        "Family": "44\" Diameter",
+                        "Family and Type": "44\" Diameter",
+                        "IfcGUID": "3KwmMWuhD83gQOxHjYSzeS",
+                        "Installation Date": "03 FEB 2023",
+                        "Panel": "PANEL-01",
+                        "Type": "44\" Diameter",
+                        "Warranty Description": "PARTS",
+                        "Warranty Parts End Date": "03 FEB 2024",
+                        "Warranty Parts Guarantor": "MONTE CARLO"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "LIGHT-01",
+                    "id": 3149863,
+                    "placement_x": 0.65256,
+                    "placement_y": -0.36211,
+                    "placement_angle": 3.14159,
+                    "mirror_y": "T",
+                    "dimension_x": 0.1524,
+                    "dimension_y": 0.1524,
+                    "attributes": {
+                        "Circuit Number": "1",
+                        "Electrical Data": "120 V/1-9 VA",
+                        "Elevation from Level": "2800",
+                        "Family": "120V Recessed 6\"",
+                        "Family and Type": "120V Recessed 6\"",
+                        "IfcGUID": "3KwmMWuhD83gQOxHjYSwTD",
+                        "Installation Date": "03 FEB 2023",
+                        "Panel": "PANEL-01",
+                        "Type": "120V Recessed 6\"",
+                        "Warranty Description": "PARTS",
+                        "Warranty Parts End Date": "03 FEB 2024",
+                        "Warranty Parts Guarantor": "COOPER"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "LIGHT-02",
+                    "id": 3149864,
+                    "placement_x": 0.65256,
+                    "placement_y": 0.62417,
+                    "placement_angle": 3.14159,
+                    "mirror_y": "T",
+                    "dimension_x": 0.1524,
+                    "dimension_y": 0.1524,
+                    "attributes": {
+                        "Circuit Number": "1",
+                        "Electrical Data": "120 V/1-9 VA",
+                        "Elevation from Level": "2800",
+                        "Family": "120V Recessed 6\"",
+                        "Family and Type": "120V Recessed 6\"",
+                        "IfcGUID": "3KwmMWuhD83gQOxHjYSwTC",
+                        "Installation Date": "03 FEB 2023",
+                        "Panel": "PANEL-01",
+                        "Type": "120V Recessed 6\"",
+                        "Warranty Description": "PARTS",
+                        "Warranty Parts End Date": "03 FEB 2024",
+                        "Warranty Parts Guarantor": "COOPER"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "LIGHT-03",
+                    "id": 3149865,
+                    "placement_x": -0.96053,
+                    "placement_y": -0.36211,
+                    "placement_angle": 3.14159,
+                    "mirror_y": "T",
+                    "dimension_x": 0.1524,
+                    "dimension_y": 0.1524,
+                    "attributes": {
+                        "Circuit Number": "1",
+                        "Electrical Data": "120 V/1-9 VA",
+                        "Elevation from Level": "2800",
+                        "Family": "120V Recessed 6\"",
+                        "Family and Type": "120V Recessed 6\"",
+                        "IfcGUID": "3KwmMWuhD83gQOxHjYSwTF",
+                        "Installation Date": "03 FEB 2023",
+                        "Panel": "PANEL-01",
+                        "Type": "120V Recessed 6\"",
+                        "Warranty Description": "PARTS",
+                        "Warranty Parts End Date": "03 FEB 2024",
+                        "Warranty Parts Guarantor": "COOPER"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "LIGHT-04",
+                    "id": 3149866,
+                    "placement_x": -0.96053,
+                    "placement_y": 0.73789,
+                    "placement_angle": 3.14159,
+                    "mirror_y": "T",
+                    "dimension_x": 0.1524,
+                    "dimension_y": 0.1524,
+                    "attributes": {
+                        "Circuit Number": "1",
+                        "Electrical Data": "120 V/1-9 VA",
+                        "Elevation from Level": "2800",
+                        "Family": "120V Recessed 6\"",
+                        "Family and Type": "120V Recessed 6\"",
+                        "IfcGUID": "3KwmMWuhD83gQOxHjYSwTE",
+                        "Installation Date": "03 FEB 2023",
+                        "Panel": "PANEL-01",
+                        "Type": "120V Recessed 6\"",
+                        "Warranty Description": "PARTS",
+                        "Warranty Parts End Date": "03 FEB 2024",
+                        "Warranty Parts Guarantor": "COOPER"
+                    }
+                }
+            },
+            {
+                "component": {
+                    "instance_name": "AIRTRM-SD02",
+                    "id": 3149867,
+                    "placement_x": -1.16989,
+                    "placement_y": -0.99078,
+                    "placement_angle": -1.5708,
+                    "mirror_y": "T",
+                    "dimension_x": 0.3,
+                    "dimension_y": 0.15,
+                    "attributes": {
+                        "Elevation from Level": "2800",
+                        "Family": "300x150",
+                        "Family and Type": "300x150",
+                        "Flow": "70 L/s",
+                        "IfcGUID": "1vOF886UnCfxsLIg$c9PWW",
+                        "Installation Date": "15 MAR 2023",
+                        "System Classification": "Supply Air",
+                        "System Name": "Mechanical Supply Air 1",
+                        "System Type": "Supply Air",
+                        "Type": "300x150",
+                        "Warranty Description": "PARTS AND LABOR",
+                        "Warranty Labor End Date": "15 MAR 2024",
+                        "Warranty Labor Guarantor": "JOHNNY COOL SPOT",
+                        "Warranty Labor Start Date": "15 MAR 2023",
+                        "Warranty Parts End Date": "15 MAR 2024",
+                        "Warranty Parts Guarantor": "TITUS"
+                    }
+                }
+            }
+        ]
+    }
+}
