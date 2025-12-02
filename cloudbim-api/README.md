@@ -6,7 +6,7 @@ For a cloudBIM to be interactive, an accessible API is required. The RE1 sample 
 
 Various endpoints with specifically passed fields and filters will return simple geometry information and asset data which can be used in a third party application like the [CMMS](https://bim-genie.com/RE1.html), [PADI](https://padi.io), [Dabblefox](https://dabblefox.com/custodian), and others or directly turned into a plan and asset data App like the [RE1 API Request Visualization](https://www.onuma.com/RE1-onuma_api/floor_plan.html).
 
-###API Endpoints:
+### API Endpoints:
 
 * **Floors:**
 	* https://system.onuma.com/{{sysID}}/api/items/building/3546?fields=floors.slabs.placement_x,floors.slabs.placement_y,floors.slabs.placement_angle,floors.slabs.profile
