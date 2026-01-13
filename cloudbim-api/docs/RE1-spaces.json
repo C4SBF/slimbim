@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "id": 339940,
+            "id": 349955,
             "number": "RE-9",
             "name": "Storage Narrow",
             "area": 0.90784,
@@ -42,7 +42,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339941,
+            "id": 349956,
             "number": "RE-8",
             "name": "Storage Medium",
             "area": 1.77079,
@@ -71,7 +71,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339942,
+            "id": 349957,
             "number": "RE-7",
             "name": "Living Room Small",
             "area": 9.88722,
@@ -108,7 +108,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339943,
+            "id": 349958,
             "number": "RE-3",
             "name": "Dining Extra Small",
             "area": 5.70919,
@@ -153,7 +153,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339944,
+            "id": 349959,
             "number": "RE-4",
             "name": "Entry Small",
             "area": 1.39936,
@@ -186,7 +186,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339945,
+            "id": 349960,
             "number": "RE-10",
             "name": "Terrace",
             "area": 3.36471,
@@ -215,7 +215,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339946,
+            "id": 349961,
             "number": "RE-12",
             "name": "Toilet Medium",
             "area": 1.68505,
@@ -244,7 +244,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339947,
+            "id": 349962,
             "number": "RE-5",
             "name": "Kitchenette Medium",
             "area": 1.72462,
@@ -277,7 +277,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339948,
+            "id": 349963,
             "number": "RE-2",
             "name": "Bath and Shower Small",
             "area": 2.18053,
@@ -306,7 +306,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339949,
+            "id": 349964,
             "number": "RE-6",
             "name": "Laundry Washroom2",
             "area": 3.08055,
@@ -339,7 +339,7 @@
             "placement_angle": 0
         },
         {
-            "id": 339950,
+            "id": 349965,
             "number": "RE-1",
             "name": "4 Tatami",
             "area": 6.24291,
