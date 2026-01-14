@@ -19,3 +19,7 @@ This apartment with 11 spaces is used to experiment with the Semantic Model and 
 
 *HTML Visualization Tool:* 
 [RE1-RDF Visualization](https://onuma.com/RDF-viz/re1-223p-visualization.html)
+
+## Time-Series Data
+
+[Time-Series Data in Sample Model](time-series/README.md)
