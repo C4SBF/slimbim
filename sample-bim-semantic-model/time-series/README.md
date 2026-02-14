@@ -16,7 +16,7 @@ The sample model contains 2 temperature sensors in rooms RE-1 and RE-7 and one C
 
 ## Graph of reported sensor data
 
-###[Live Graph for space RE-7](https://www.onuma.com/RE1/time-series-graph.html?space=RE-7)
+[Live Graph for space RE-7](https://www.onuma.com/RE1/time-series-graph.html?space=RE-7)
  
 ![Graph displaying sensor data](docs/temp-co2-graph.png)
 
@@ -55,7 +55,7 @@ Example URLs for the above timeseries:
 
 [Space RE-7](https://system.onuma.com/177/export/re1-space-data?date=2026-02-10&space=RE-7)
 
-[Termostat](https://system.onuma.com/177/export/re1-space-data?date=2026-02-10&id=TSTAT-01)
+[Thermostat](https://system.onuma.com/177/export/re1-space-data?date=2026-02-10&id=TSTAT-01)
 
 [CO2](https://system.onuma.com/177/export/re1-space-data?date=2026-02-10&type=co2)
 
